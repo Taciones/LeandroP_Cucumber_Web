@@ -17,7 +17,6 @@ AfterStep do |step|
     $imgBase64 = nil
 end
 
-
 After do |scenario|
     if scenario.failed?
         $imgBase64 = nil
